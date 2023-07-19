@@ -13,31 +13,31 @@
     <h1>Contact Us</h1>
     <p>Have any question? Drop a message</p>
 
-    <form action="">
+    <form name="contact" method="POST" data-netlify="true">
       <div class="row">
         <div class="col">
           <label for="name">Full Name</label>
-          <input type="text" id="name" placeholder="Enter your Full Name">
+          <input type="text" id="name" placeholder="Enter your Full Name" name="name">
         </div>
         <div class="col">
           <label for="email">Email Address</label>
-          <input type="text" id="email" placeholder="Enter Email Address">
+          <input type="text" id="email" placeholder="Enter Email Address" name="email">
         </div>
       </div>
       <div class="row">
         <div class="col">
           <label for="subject">Subject</label>
-          <input type="text" id="subject" placeholder="Enter Subject">
+          <input type="text" id="subject" placeholder="Enter Subject" name="subject">
         </div>
         <div class="col">
           <label for="mobile">Contact Number</label>
-          <input type="text" id="mobile" placeholder="Enter Mobile Number">
+          <input type="text" id="mobile" placeholder="Enter Mobile Number" name="mobile_number">
         </div>
       </div>
       <div class="row">
         <div class="col">
           <label for="message">Your Message</label>
-          <textarea id="message" placeholder="Enter the issue/message" rows="3"></textarea>
+          <textarea id="message" placeholder="Enter the issue/message" rows="3" name="message"></textarea>
         </div>
       </div>
       <input type="submit" value="Submit" class="btn-submit">
